@@ -1,0 +1,20 @@
+.kyzr_title {
+  margin-top: 50px;
+  color: gray !important;
+  text-align: center;
+}
+.kyzr_loginForm {
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.kyzr_hr {
+  border: 1px solid gold;
+}
+.kyzr_registerForm {
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
