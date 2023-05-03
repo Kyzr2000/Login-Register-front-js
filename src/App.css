@@ -1,20 +1,63 @@
+body {
+  margin: 0;
+}
+.LoginAndRegister {
+  width: 100%;
+  height: 600px;
+}
 .kyzr_title {
-  margin-top: 50px;
   color: gray !important;
   text-align: center;
 }
-.kyzr_loginForm {
+.kyzr_loginForm,
+.kyzr_registerForm {
+  position: relative;
+  width: 60%;
+  top: 50px;
   padding: 0;
   margin: 0 auto;
-  margin-top: 70px;
-  margin-bottom: 40px;
 }
 .kyzr_hr {
   border: 1px solid gold;
 }
-.kyzr_registerForm {
+.kyzr_login {
+  border-right: 1px solid gold;
+  position: relative;
+  width: 49.9%;
+  height: 600px;
+  float: left;
+  border-bottom: 1px solid gold;
+}
+.kyzr_loginContent {
+  margin-top: 130px;
+}
+.kyzr_registerContent {
+  margin-top: 50px;
+}
+.kyzr_register {
+  position: relative;
+  width: 49.9%;
+  height: 600px;
+  float: left;
+  border-bottom: 1px solid gold;
+}
+.kyzr_show {
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+.kyzr_showContent {
+  text-align: center;
+}
+.kyzr_table {
+  width: 50%;
+  height: 250px;
+  border: 1px solid skyblue;
+  border-radius: 25px;
   padding: 0;
   margin: 0 auto;
-  margin-top: 70px;
-  margin-bottom: 40px;
+  overflow: auto;
+}
+.kyzr_table .kyzr_tableContent {
+  width: 100%;
 }

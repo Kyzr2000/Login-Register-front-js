@@ -1,0 +1,73 @@
+@loginPadding: 130px;
+@registerpadding: 50px;
+body {
+  margin: 0;
+}
+.center() {
+  padding: 0;
+  margin: 0 auto;
+}
+.border() {
+  goldborder: 1px solid gold;
+  skyblue: 1px solid skyblue;
+}
+.LoginAndRegister {
+  width: 100%;
+  height: 600px;
+}
+.kyzr_title {
+  //   margin-top: 50px;
+  color: gray !important;
+  text-align: center;
+}
+.kyzr_loginForm,
+.kyzr_registerForm {
+  position: relative;
+  width: 60%;
+  top: 50px;
+  .center();
+}
+.kyzr_hr {
+  border: .border[goldborder];
+}
+.kyzr_loginAndRegister() {
+  position: relative;
+  width: 49.9%;
+  height: 600px;
+  float: left;
+  border-bottom: .border[goldborder];
+}
+.kyzr_login {
+  border-right: .border[goldborder];
+  //padding-top: @loginPadding;
+  .kyzr_loginAndRegister();
+}
+.kyzr_loginContent {
+  margin-top: @loginPadding;
+}
+.kyzr_registerContent {
+  margin-top: @registerpadding;
+}
+.kyzr_register {
+  //padding-top: @registerpadding;
+  .kyzr_loginAndRegister();
+}
+.kyzr_show {
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+.kyzr_showContent {
+  text-align: center;
+}
+.kyzr_table {
+  width: 50%;
+  height: 250px;
+  border: .border[skyblue];
+  border-radius: 25px;
+  .center();
+  overflow: auto;
+  .kyzr_tableContent {
+    width: 100%;
+  }
+}
